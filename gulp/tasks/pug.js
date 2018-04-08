@@ -1,10 +1,10 @@
 module.exports = function () {
-    $.gulp.task('pug', function(){
-        return $.gulp.src('src/pug/pages/*.pug')
-            .pipe($.gp.pug({
+    modules.gulp.task('pug', function(){
+        return modules.gulp.src('src/pug/pages/*.pug')
+            .pipe(modules.gp.pug({
                 pretty:true
             }))
-            .pipe($.gulp.dest('build'))
-            .on('end', $.bs.reload);
+            .pipe(modules.gulp.dest('build'))
+            .on('end', modules.bs.reload);
     });
 }

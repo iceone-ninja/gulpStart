@@ -1,7 +1,7 @@
 module.exports = function () {
-    $.gulp.task('watch', function(){
-        $.gulp.watch('src/pug/**/*.pug', $.gulp.series('pug')); //здесь можно через массив [] передать несколько путей
-        $.gulp.watch('src/static/**/*.sass', $.gulp.series('sass'))
+    modules.gulp.task('watch', function(){
+        modules.gulp.watch('src/pug/**/*.pug', modules.gulp.series('pug')); //здесь можно через массив [] передать несколько путей
+        modules.gulp.watch('src/static/**/*.sass', modules.gulp.series('sass'))
     
     });
 }

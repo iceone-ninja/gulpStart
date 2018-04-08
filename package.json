@@ -1,7 +1,6 @@
 {
   "name": "lookshop",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +18,15 @@
     "gulp-pug": "^3.3.0",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.1"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iceone-ninja/gulpStart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iceone-ninja/gulpStart/issues"
+  },
+  "homepage": "https://github.com/iceone-ninja/gulpStart#readme",
+  "description": ""
 }
