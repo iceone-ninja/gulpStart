@@ -1,1 +1,8 @@
-https://www.youtube.com/watch?v=hU3aIeRPj2Y&list=PLDmWuBfh49Z6gotPQGTIrbNwIDIQzZMVA&index=7
+Тестовая сборка на Gulp 4
+
+Фичи:
+1. Работает с .pug, .scss, .sass
+2. Работает с JS библиотеками, в сборке есть jQuery и Slick Carousel
+3. Собирает все  .js  и .css-файлы библиотек в один libs.min.js и libs.css соответственно
+4. Собирает собственные JS-скрипты в один файл main.min.js
+5. В сборке есть компрессор PNG - gulp-tinypng
