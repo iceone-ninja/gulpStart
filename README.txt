@@ -1,4 +1,6 @@
 ﻿Тестовая сборка на Gulp 4
+Внимание! Необходим именно Gulp v4
+Инструкция по установке тут: http://demisx.github.io/gulp4/2015/01/15/install-gulp4.html
 
 Фичи:
 1. Работает с .pug, .scss, .sass
