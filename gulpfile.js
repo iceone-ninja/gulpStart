@@ -15,7 +15,13 @@ modules.path.tasks.forEach(function (tasksPath) {
 });
 
 modules.gulp.task('default', modules.gulp.series(
-    modules.gulp.parallel('pug','sass'),
+    modules.gulp.parallel('pug','sass','jscripts:lib','jscripts','img:dev'),
+    modules.gulp.parallel('watch','serve')
+
+));
+
+modules.gulp.task('build', modules.gulp.series(
+    modules.gulp.parallel('pug','sass','jscripts:lib','jscripts','img:build'),
     modules.gulp.parallel('watch','serve')
 
 ));
